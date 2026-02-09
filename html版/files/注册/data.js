@@ -1,0 +1,1137 @@
+﻿$axure.loadCurrentPage({
+  "url":"注册.html",
+  "generationDate":new Date(1747067682850.47),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"525b03252ab64478bb79c278e34f9bde",
+    "type":"Axure:Page",
+    "name":"注册",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFocusOnWidget",
+                "description":"设置焦点在 用户名输入 上",
+                "objectPaths":[["3f19bcc899bf47e399439284bf08bc07"]]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"ebf75258a95747d39510b280538e84e4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bdd7034f86a44de98275bbafbf22e3eb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页/背景图片_u0.png"}},
+{
+          "id":"b4f1d165fde74d948b93c5cba131d0a5",
+          "label":"阻挡图片的透明矩形（防止网页点击背景跳出查看图片）",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5cf95682e84e46e5a0e804ca514e0e74",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3a977bebf7af485c862a9b0f48b58cb8",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0.6",
+            "location":{
+              "x":210,
+              "y":233},
+            "size":{
+              "width":256,
+              "height":247},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c6cd308781e5416d8e1e633f6ea093a5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0.6",
+                "location":{
+                  "x":210,
+                  "y":233},
+                "size":{
+                  "width":256,
+                  "height":247},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/注册/u4.png"}},
+{
+          "id":"22c17be49f73487c8de714d7713c81b0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":245},
+            "size":{
+              "width":40,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"62ab9bf40a014fec9647617a29dd8534",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":240,
+                  "y":245},
+                "size":{
+                  "width":40,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d8baa51137974143a210d28cf2335004",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":305},
+            "size":{
+              "width":27,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"44e8d760eba94f7584e610f916814c6e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":240,
+                  "y":305},
+                "size":{
+                  "width":27,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fdb966767f2646058de275b284e06016",
+          "label":"注册按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF66CCFF},
+            "location":{
+              "x":356,
+              "y":430},
+            "size":{
+              "width":100,
+              "height":30},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"32"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8c6402e7aa0f461897d1c5121a136eef",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF66CCFF},
+                "location":{
+                  "x":356,
+                  "y":430},
+                "size":{
+                  "width":100,
+                  "height":30},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"32"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"密码不一致错误<br> (If 文字于 密码输入不等于: 文字于 密码确认)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["45c120713eb04151bc7c2720ea0badff"]}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["7f08f0106d3f46cb97523e08a8e6b8ea"]}]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：输入密码不一致&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：输入密码不一致",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"密码格式错误<br> (Else If 文字于 密码输入 不是数字 或者 部件值长度 密码输入不等于: &quot;6&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"||",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"IsValueNotNumeric",
+                      "arguments":[{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["45c120713eb04151bc7c2720ea0badff"]}]}]},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetValueLength",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["45c120713eb04151bc7c2720ea0badff"]}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"6",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：密码格式错误！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：密码格式错误！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"用户名格式错误<br> (Else If 文字于 用户名输入 不是字母数字 )",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"fcall",
+                    "functionName":"IsValueNotAlphaNumeric",
+                    "arguments":[{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["3f19bcc899bf47e399439284bf08bc07"]}]}]},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：请检查用户名格式！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：请检查用户名格式！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"账户已存在<br> (Else If 文字于 用户名输入等于: value of user1name)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3f19bcc899bf47e399439284bf08bc07"]}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"user1name"}]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：用户名已存在！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：用户名已存在！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"账户已存在1<br> (Else If 文字于 用户名输入等于: value of user2name 和 文字于 密码输入等于: value of password2)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["3f19bcc899bf47e399439284bf08bc07"]}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user2name"}]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["45c120713eb04151bc7c2720ea0badff"]}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"password2"}]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：账户已存在！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：账户已存在！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"预设变量用完，系统无法再新建用户<br> (Else If value of user2name不等于: &quot;zhu_ce_shi_yong&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"user2name"}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"zhu_ce_shi_yong",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 输入错误提示 等于 &quot;错误：系统已不能新建用户，请联系管理员！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["e409ac5f0d04465e9f19cbe65722df7f"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"错误：系统已不能新建用户，请联系管理员！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["95bbf378b9f7499e85ce3da37e19cca5"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"“新增”用户//实际上是修改预设好的变量<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of user2name 等于 文字于 用户名输入, 与<br> value of password2 等于 文字于 密码输入",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2name"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["3f19bcc899bf47e399439284bf08bc07"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"password2"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["45c120713eb04151bc7c2720ea0badff"]}]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 注册成功",
+                      "objectsToFades":[{
+                          "objectPath":["cb732dc79b724db99a72c417fcb691a3"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 注册成功",
+                      "objectsToFades":[{
+                          "objectPath":["cb732dc79b724db99a72c417fcb691a3"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"linkFrame",
+                      "description":"打开 首页 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/登录/登录按钮_u10.png",
+            "mouseOver~":"images/登录/登录按钮_u10_mouseOver.png"}},
+{
+          "id":"45c120713eb04151bc7c2720ea0badff",
+          "label":"密码输入",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":240,
+              "y":320},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "submitButton":{
+            "path":[],
+            "id":"fdb966767f2646058de275b284e06016"},
+          "placeholderText":"6位数字"},
+{
+          "id":"3f19bcc899bf47e399439284bf08bc07",
+          "label":"用户名输入",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":240,
+              "y":270},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "submitButton":{
+            "path":[],
+            "id":"fdb966767f2646058de275b284e06016"},
+          "placeholderText":"字母或数字组合"},
+{
+          "id":"7d7a7b7777284799aa4f0d60e2c41ce9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "underline":true,
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0066CC,
+                  "opacity":1}}},
+            "location":{
+              "x":406,
+              "y":480},
+            "size":{
+              "width":60,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"91b60a0cefad417fa3d65302b220606a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "underline":true,
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0066CC,
+                      "opacity":1}}},
+                "location":{
+                  "x":406,
+                  "y":480},
+                "size":{
+                  "width":60,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 首页 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"80358b5bd8ee4af8b9230c7a0b3b1657",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontSize":"30px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000033,
+              "opacity":1},
+            "opacity":"0.8",
+            "location":{
+              "x":30,
+              "y":105},
+            "size":{
+              "width":181,
+              "height":35},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF777777}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1242b68dd6324927947dd76e8dbd6fd4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontSize":"30px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000033,
+                  "opacity":1},
+                "opacity":"0.8",
+                "location":{
+                  "x":30,
+                  "y":105},
+                "size":{
+                  "width":181,
+                  "height":35},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF777777}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"95bbf378b9f7499e85ce3da37e19cca5",
+          "label":"输入错误提示",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":240,
+              "y":395},
+            "size":{
+              "width":118,
+              "height":13},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e409ac5f0d04465e9f19cbe65722df7f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":240,
+                  "y":395},
+                "size":{
+                  "width":118,
+                  "height":13},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"88c0e5d6bb2a46579cc6ec92a36a1e28",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":355},
+            "size":{
+              "width":53,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"44b46d63686343ca9829cb3a1c9a0153",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":240,
+                  "y":355},
+                "size":{
+                  "width":53,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7f08f0106d3f46cb97523e08a8e6b8ea",
+          "label":"密码确认",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "hint":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC,
+                  "opacity":1}}},
+            "location":{
+              "x":240,
+              "y":370},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "submitButton":{
+            "path":[],
+            "id":"fdb966767f2646058de275b284e06016"},
+          "placeholderText":"再次输入密码"},
+{
+          "id":"cb732dc79b724db99a72c417fcb691a3",
+          "label":"注册成功",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontSize":"20px",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF00},
+            "location":{
+              "x":249,
+              "y":295},
+            "size":{
+              "width":182,
+              "height":65},
+            "visible":false,
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b1c1f5c366a14a98ba8fcec622f751fa",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontSize":"20px",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF00},
+                "location":{
+                  "x":249,
+                  "y":295},
+                "size":{
+                  "width":182,
+                  "height":65},
+                "visible":false,
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/注册/注册成功_u23.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ebf75258a95747d39510b280538e84e4":{
+      "scriptId":"u0"},
+    "bdd7034f86a44de98275bbafbf22e3eb":{
+      "scriptId":"u1"},
+    "b4f1d165fde74d948b93c5cba131d0a5":{
+      "scriptId":"u2"},
+    "5cf95682e84e46e5a0e804ca514e0e74":{
+      "scriptId":"u3"},
+    "3a977bebf7af485c862a9b0f48b58cb8":{
+      "scriptId":"u4"},
+    "c6cd308781e5416d8e1e633f6ea093a5":{
+      "scriptId":"u5"},
+    "22c17be49f73487c8de714d7713c81b0":{
+      "scriptId":"u6"},
+    "62ab9bf40a014fec9647617a29dd8534":{
+      "scriptId":"u7"},
+    "d8baa51137974143a210d28cf2335004":{
+      "scriptId":"u8"},
+    "44e8d760eba94f7584e610f916814c6e":{
+      "scriptId":"u9"},
+    "fdb966767f2646058de275b284e06016":{
+      "scriptId":"u10"},
+    "8c6402e7aa0f461897d1c5121a136eef":{
+      "scriptId":"u11"},
+    "45c120713eb04151bc7c2720ea0badff":{
+      "scriptId":"u12"},
+    "3f19bcc899bf47e399439284bf08bc07":{
+      "scriptId":"u13"},
+    "7d7a7b7777284799aa4f0d60e2c41ce9":{
+      "scriptId":"u14"},
+    "91b60a0cefad417fa3d65302b220606a":{
+      "scriptId":"u15"},
+    "80358b5bd8ee4af8b9230c7a0b3b1657":{
+      "scriptId":"u16"},
+    "1242b68dd6324927947dd76e8dbd6fd4":{
+      "scriptId":"u17"},
+    "95bbf378b9f7499e85ce3da37e19cca5":{
+      "scriptId":"u18"},
+    "e409ac5f0d04465e9f19cbe65722df7f":{
+      "scriptId":"u19"},
+    "88c0e5d6bb2a46579cc6ec92a36a1e28":{
+      "scriptId":"u20"},
+    "44b46d63686343ca9829cb3a1c9a0153":{
+      "scriptId":"u21"},
+    "7f08f0106d3f46cb97523e08a8e6b8ea":{
+      "scriptId":"u22"},
+    "cb732dc79b724db99a72c417fcb691a3":{
+      "scriptId":"u23"},
+    "b1c1f5c366a14a98ba8fcec622f751fa":{
+      "scriptId":"u24"}}});

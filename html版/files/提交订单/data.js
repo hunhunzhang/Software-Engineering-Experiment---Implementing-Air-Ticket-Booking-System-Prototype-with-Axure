@@ -1,0 +1,1298 @@
+﻿$axure.loadCurrentPage({
+  "url":"提交订单.html",
+  "generationDate":new Date(1747067683086.26),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"113ffa9af8474cf6b97d2f51450af382",
+    "type":"Axure:Page",
+    "name":"提交订单",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1<br> (If value of imageid等于: &quot;1&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"1",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/c4b83fd69e5847b08e97385b9a58327c.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;2&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"2",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/c513d1575a2f4b998194ee819c5eec0c.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;3&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"3",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/14b1ee1382b64c8f8e63b105b48a12e0.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;4&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"4",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/8e3a3027e5ff4af089010a3ed4c27a32.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;5&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"5",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/ec62af5d724d4036a9f44b41cf56e76e.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;6&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"6",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/f78c7025fd364903b2bfb8e15b0a1a75.png"}},
+                    "adaptive":{
+}}]}]},
+{
+            "description":"用例 1<br> (Else If value of imageid等于: &quot;7&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"imageid"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"7",
+                "stos":[]}},
+            "actions":[{
+                "action":"setImage",
+                "description":"设置 机票图 image to image",
+                "imagesToSet":[{
+                    "objectPath":["b1d4f929dcf9412491e7337d51c6a5f9"],
+                    "base":{
+                      "normal":{
+                        "path":"files/提交订单/657dae0fc54449acbef516a528cb6252.png"}},
+                    "adaptive":{
+}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"c7983d2088574a2cab97234be381ffeb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"51ea9c556ea0434cba29f2cdeca4888b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/航班/u0.png"}},
+{
+          "id":"da3e83b70c3842ad8a7bc0f6927df466",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":80,
+              "y":160},
+            "size":{
+              "width":540,
+              "height":320}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e7979513a0464121a1c25ce62940d2ac",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":80,
+                  "y":160},
+                "size":{
+                  "width":540,
+                  "height":320}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提交订单/u2.png"}},
+{
+          "id":"86b58bc1a5a442c79b38576933dfb1e3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "cornerRadiusTopLeft":"20",
+                "outerShadow":{
+                  "on":true,
+                  "offsetX":5,
+                  "offsetY":5,
+                  "blurRadius":5,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.349019607843137}}}},
+            "location":{
+              "x":40,
+              "y":110},
+            "size":{
+              "width":50,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"71d057aa60724f9095eee07ef551eaf5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "cornerRadiusTopLeft":"20",
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":5,
+                      "offsetY":5,
+                      "blurRadius":5,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}}},
+                "location":{
+                  "x":40,
+                  "y":110},
+                "size":{
+                  "width":50,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 显示航班 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"显示航班.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/航班/u2.png",
+            "mouseOver~":"images/提交订单/u4_mouseOver.png"}},
+{
+          "id":"b1d4f929dcf9412491e7337d51c6a5f9",
+          "label":"机票图",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":128,
+              "y":170},
+            "size":{
+              "width":432,
+              "height":120}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c8459c168a814b73867fe01ff0134091",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":128,
+                  "y":170},
+                "size":{
+                  "width":432,
+                  "height":120}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提交订单/机票图_u6.png"}},
+{
+          "id":"f6370773400f418b885679d98238bc5a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "location":{
+              "x":120,
+              "y":310},
+            "size":{
+              "width":46,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5aaec84e74cb4051b533820f265024d5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"14px",
+                "location":{
+                  "x":120,
+                  "y":310},
+                "size":{
+                  "width":46,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e8a8e5bc559947e591fea039d16f8534",
+          "label":"姓名",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":160,
+              "y":308},
+            "size":{
+              "width":110,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f0c9b039d785455198e8a81d4dff1d8d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"28px",
+            "location":{
+              "x":240,
+              "y":110},
+            "size":{
+              "width":170,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9eaa1a0f54a74989b39160cccb0b049e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"28px",
+                "location":{
+                  "x":240,
+                  "y":110},
+                "size":{
+                  "width":170,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提交订单/u11.png"}},
+{
+          "id":"e6c5a76bcc8c403096d514a22b2c3101",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Normal', 'Arial'",
+            "fontSize":"13px",
+            "fontWeight":"400",
+            "fontStyle":"normal",
+            "underline":false,
+            "horizontalAlignment":"center",
+            "verticalAlignment":"middle",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "lineSpacing":"0px",
+            "stateStyles":{
+},
+            "opacity":"0.7",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF3399FF},
+            "textShadow":{
+              "on":false,
+              "offsetX":1,
+              "offsetY":1,
+              "blurRadius":5,
+              "color":{
+                "r":0,
+                "g":0,
+                "b":0,
+                "a":0.647058823529412}},
+            "paddingTop":"2",
+            "paddingBottom":"2",
+            "location":{
+              "x":26,
+              "y":150},
+            "size":{
+              "width":644,
+              "height":10},
+            "visible":true,
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "linePattern":"solid",
+            "cornerRadiusTopLeft":"0",
+            "outerShadow":{
+              "on":false,
+              "offsetX":5,
+              "offsetY":5,
+              "blurRadius":5,
+              "color":{
+                "r":0,
+                "g":0,
+                "b":0,
+                "a":0.349019607843137}}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"acd1bdaf0a484cfa9a02d398de977aab",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Normal', 'Arial'",
+                "fontSize":"13px",
+                "fontWeight":"400",
+                "fontStyle":"normal",
+                "underline":false,
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "lineSpacing":"0px",
+                "stateStyles":{
+},
+                "opacity":"0.7",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF3399FF},
+                "textShadow":{
+                  "on":false,
+                  "offsetX":1,
+                  "offsetY":1,
+                  "blurRadius":5,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.647058823529412}},
+                "paddingTop":"2",
+                "paddingBottom":"2",
+                "location":{
+                  "x":26,
+                  "y":150},
+                "size":{
+                  "width":644,
+                  "height":10},
+                "visible":true,
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "linePattern":"solid",
+                "cornerRadiusTopLeft":"0",
+                "outerShadow":{
+                  "on":false,
+                  "offsetX":5,
+                  "offsetY":5,
+                  "blurRadius":5,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.349019607843137}}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提交订单/u13.png"}},
+{
+          "id":"d187e1c75b254725be27ee081f7f9295",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "location":{
+              "x":350,
+              "y":308},
+            "size":{
+              "width":46,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3cd9bf2ca5d04f23a80dafd7124b1a41",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"14px",
+                "location":{
+                  "x":350,
+                  "y":308},
+                "size":{
+                  "width":46,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"68d1701e885d45659568b469c4830e7d",
+          "label":"性别",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":390,
+              "y":308},
+            "size":{
+              "width":110,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f9cee4eac62c46bfb928bea1e2f5b0f4",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "location":{
+              "x":120,
+              "y":358},
+            "size":{
+              "width":60,
+              "height":22}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4c2c14284d654229a0c720d1a09a7092",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"14px",
+                "location":{
+                  "x":120,
+                  "y":358},
+                "size":{
+                  "width":60,
+                  "height":22}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4b67ea5db345481285cd8e65f606991a",
+          "label":"证件号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":180,
+              "y":358},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"9f08dfa3311048819ecca1c17d5a8b1f",
+          "label":"提交",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"18px",
+            "stateStyles":{
+              "mouseOver":{
+                "outerShadow":{
+                  "on":true,
+                  "offsetX":5,
+                  "offsetY":5,
+                  "blurRadius":5,
+                  "color":{
+                    "r":0,
+                    "g":0,
+                    "b":0,
+                    "a":0.349019607843137}}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF33CCFF},
+            "location":{
+              "x":274,
+              "y":410},
+            "size":{
+              "width":147,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"85"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e6f36e0c9c464aef94bd48b5465edd1e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"18px",
+                "stateStyles":{
+                  "mouseOver":{
+                    "outerShadow":{
+                      "on":true,
+                      "offsetX":5,
+                      "offsetY":5,
+                      "blurRadius":5,
+                      "color":{
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":0.349019607843137}}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF33CCFF},
+                "location":{
+                  "x":274,
+                  "y":410},
+                "size":{
+                  "width":147,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"85"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"提交失败（该账户已有订单）<br> (If value of username等于: value of user1name 和 value of user1_ticket不等于: &quot;0&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"username"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user1name"}]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user1_ticket"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"0",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 失败提示 等于 &quot;提交失败，该账户已有订单！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["6ae593a3a8634d7f9fdca26656183ff2"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"提交失败，该账户已有订单！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 失败提示",
+                      "objectsToFades":[{
+                          "objectPath":["0ff3d61674ba4e68a33b08e9f443c44e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 失败提示",
+                      "objectsToFades":[{
+                          "objectPath":["0ff3d61674ba4e68a33b08e9f443c44e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"提交失败（该账户已有订单）<br> (Else If value of username等于: value of user2name 和 value of user2_ticket不等于: &quot;0&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"username"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user2name"}]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"!=",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user2_ticket"}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"0",
+                        "stos":[]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 文字于 失败提示 等于 &quot;提交失败，该账户已有订单！&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetWidgetRichText",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["6ae593a3a8634d7f9fdca26656183ff2"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"提交失败，该账户已有订单！",
+                                "stos":[]},
+{
+                                "exprType":"booleanLiteral",
+                                "value":true}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 失败提示",
+                      "objectsToFades":[{
+                          "objectPath":["0ff3d61674ba4e68a33b08e9f443c44e"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 失败提示",
+                      "objectsToFades":[{
+                          "objectPath":["0ff3d61674ba4e68a33b08e9f443c44e"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]},
+{
+                  "description":"user1提交订单<br> (Else If value of username等于: value of user1name)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"username"}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"user1name"}]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of user1_ticket 等于 value of imageid, 与<br> value of user1_info 等于 &quot;姓名：[[LVAR1]]&nbsp; &nbsp; 性别：[[LVAR2]...&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user1_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"imageid"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user1_info"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"姓名：[[LVAR1]]    性别：[[LVAR2]]    证件号：[[LVAR3]]",
+                                "localVariables":{
+                                  "lvar1":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["e8a8e5bc559947e591fea039d16f8534"]}]},
+                                  "lvar2":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["68d1701e885d45659568b469c4830e7d"]}]},
+                                  "lvar3":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["4b67ea5db345481285cd8e65f606991a"]}]}},
+                                "stos":[{
+                                    "sto":"var",
+                                    "name":"lvar1"},
+{
+                                    "sto":"var",
+                                    "name":"lvar2"},
+{
+                                    "sto":"var",
+                                    "name":"lvar3"}]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 value of user_ticket 等于 value of user1_ticket, 与<br> value of user_info 等于 value of user1_info",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_ticket"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_info"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_info"}]}]}]}},
+{
+                      "action":"linkFrame",
+                      "description":"打开 订单记录 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订单记录.html",
+                        "includeVariables":true}}]},
+{
+                  "description":"user2提交订单<br> (Else If value of username等于: value of user2name)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"username"}]},
+                    "rightExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetGlobalVariableValue",
+                      "arguments":[{
+                          "exprType":"globalVariableLiteral",
+                          "variableName":"user2name"}]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of user2_ticket 等于 value of imageid, 与<br> value of user2_info 等于 &quot;姓名：[[LVAR1]]&nbsp; &nbsp; 性别：[[LVAR...&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"imageid"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2_info"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"姓名：[[LVAR1]]\r\n    性别：[[LVAR2]]\r\n    证件号：[[LVAR3]]",
+                                "localVariables":{
+                                  "lvar1":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["e8a8e5bc559947e591fea039d16f8534"]}]},
+                                  "lvar2":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["68d1701e885d45659568b469c4830e7d"]}]},
+                                  "lvar3":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetWidgetText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["4b67ea5db345481285cd8e65f606991a"]}]}},
+                                "stos":[{
+                                    "sto":"var",
+                                    "name":"lvar1"},
+{
+                                    "sto":"var",
+                                    "name":"lvar2"},
+{
+                                    "sto":"var",
+                                    "name":"lvar3"}]}]}]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 value of user_ticket 等于 value of user1_ticket, 与<br> value of user_info 等于 value of user1_info",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_ticket"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_info"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_info"}]}]}]}},
+{
+                      "action":"linkFrame",
+                      "description":"打开 订单记录 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订单记录.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/提交订单/提交_u21.png",
+            "mouseOver~":"images/提交订单/提交_u21_mouseOver.png"}},
+{
+          "id":"0ff3d61674ba4e68a33b08e9f443c44e",
+          "label":"失败提示",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fontSize":"16px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":248,
+              "y":265},
+            "size":{
+              "width":212,
+              "height":95},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6ae593a3a8634d7f9fdca26656183ff2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontSize":"16px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":248,
+                  "y":265},
+                "size":{
+                  "width":212,
+                  "height":95},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/提交订单/失败提示_u23.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c7983d2088574a2cab97234be381ffeb":{
+      "scriptId":"u0"},
+    "51ea9c556ea0434cba29f2cdeca4888b":{
+      "scriptId":"u1"},
+    "da3e83b70c3842ad8a7bc0f6927df466":{
+      "scriptId":"u2"},
+    "e7979513a0464121a1c25ce62940d2ac":{
+      "scriptId":"u3"},
+    "86b58bc1a5a442c79b38576933dfb1e3":{
+      "scriptId":"u4"},
+    "71d057aa60724f9095eee07ef551eaf5":{
+      "scriptId":"u5"},
+    "b1d4f929dcf9412491e7337d51c6a5f9":{
+      "scriptId":"u6"},
+    "c8459c168a814b73867fe01ff0134091":{
+      "scriptId":"u7"},
+    "f6370773400f418b885679d98238bc5a":{
+      "scriptId":"u8"},
+    "5aaec84e74cb4051b533820f265024d5":{
+      "scriptId":"u9"},
+    "e8a8e5bc559947e591fea039d16f8534":{
+      "scriptId":"u10"},
+    "f0c9b039d785455198e8a81d4dff1d8d":{
+      "scriptId":"u11"},
+    "9eaa1a0f54a74989b39160cccb0b049e":{
+      "scriptId":"u12"},
+    "e6c5a76bcc8c403096d514a22b2c3101":{
+      "scriptId":"u13"},
+    "acd1bdaf0a484cfa9a02d398de977aab":{
+      "scriptId":"u14"},
+    "d187e1c75b254725be27ee081f7f9295":{
+      "scriptId":"u15"},
+    "3cd9bf2ca5d04f23a80dafd7124b1a41":{
+      "scriptId":"u16"},
+    "68d1701e885d45659568b469c4830e7d":{
+      "scriptId":"u17"},
+    "f9cee4eac62c46bfb928bea1e2f5b0f4":{
+      "scriptId":"u18"},
+    "4c2c14284d654229a0c720d1a09a7092":{
+      "scriptId":"u19"},
+    "4b67ea5db345481285cd8e65f606991a":{
+      "scriptId":"u20"},
+    "9f08dfa3311048819ecca1c17d5a8b1f":{
+      "scriptId":"u21"},
+    "e6f36e0c9c464aef94bd48b5465edd1e":{
+      "scriptId":"u22"},
+    "0ff3d61674ba4e68a33b08e9f443c44e":{
+      "scriptId":"u23"},
+    "6ae593a3a8634d7f9fdca26656183ff2":{
+      "scriptId":"u24"}}});

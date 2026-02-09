@@ -1,0 +1,258 @@
+﻿$axure.loadCurrentPage({
+  "url":"说明.html",
+  "generationDate":new Date(1747067683207.26),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"cd94353162ae4948a3900a4fc30a8eed",
+    "type":"Axure:Page",
+    "name":"说明",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"648f1dbcf02d42b79227802a08190da5",
+          "label":"背景图片",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"11d39f5392a6447bb5855cf89b29b01e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页/背景图片_u0.png"}},
+{
+          "id":"f75505536a174911894be1ccf5838ca3",
+          "label":"系统名称",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontSize":"30px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000033,
+              "opacity":1},
+            "opacity":"0.8",
+            "location":{
+              "x":30,
+              "y":105},
+            "size":{
+              "width":181,
+              "height":35},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF777777}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"100e0c9774624744b8ee369fdaebc6ac",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontSize":"30px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000033,
+                  "opacity":1},
+                "opacity":"0.8",
+                "location":{
+                  "x":30,
+                  "y":105},
+                "size":{
+                  "width":181,
+                  "height":35},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF777777}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ef86c9c13e504753bf3a4feb824d452e",
+          "label":"系统说明",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"left",
+            "location":{
+              "x":228,
+              "y":150},
+            "size":{
+              "width":252,
+              "height":300},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5409bae4a94547239ed7bca987814ffc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"left",
+                "location":{
+                  "x":228,
+                  "y":150},
+                "size":{
+                  "width":252,
+                  "height":300},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/说明/系统说明_u4.png"}},
+{
+          "id":"d9db0e5f13014c60b212ed8ac2f30b43",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF33CCFF},
+            "location":{
+              "x":280,
+              "y":460},
+            "size":{
+              "width":130,
+              "height":50},
+            "cornerRadiusTopLeft":"65"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f6494444ce71466f99f497ef31a49b6d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"16px",
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF33CCFF},
+                "location":{
+                  "x":280,
+                  "y":460},
+                "size":{
+                  "width":130,
+                  "height":50},
+                "cornerRadiusTopLeft":"65"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 首页 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/说明/u6.png",
+            "mouseOver~":"images/说明/u6_mouseOver.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "648f1dbcf02d42b79227802a08190da5":{
+      "scriptId":"u0"},
+    "11d39f5392a6447bb5855cf89b29b01e":{
+      "scriptId":"u1"},
+    "f75505536a174911894be1ccf5838ca3":{
+      "scriptId":"u2"},
+    "100e0c9774624744b8ee369fdaebc6ac":{
+      "scriptId":"u3"},
+    "ef86c9c13e504753bf3a4feb824d452e":{
+      "scriptId":"u4"},
+    "5409bae4a94547239ed7bca987814ffc":{
+      "scriptId":"u5"},
+    "d9db0e5f13014c60b212ed8ac2f30b43":{
+      "scriptId":"u6"},
+    "f6494444ce71466f99f497ef31a49b6d":{
+      "scriptId":"u7"}}});

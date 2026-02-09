@@ -1,0 +1,137 @@
+﻿$axure.loadCurrentPage({
+  "url":"航班.html",
+  "generationDate":new Date(1747067682907.47),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"8895106e641a42fda474768526e4c420",
+    "type":"Axure:Page",
+    "name":"航班",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1ce9b49033024bb1bc96b138abf9883b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1d89e439a1fd443394815a1f8ee499cf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/航班/u0.png"}},
+{
+          "id":"544711bbedcb4b4fa9c7907fe1ccfa3b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":110},
+            "size":{
+              "width":50,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b7db41e75a6e4138960e2b798764f661",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":40,
+                  "y":110},
+                "size":{
+                  "width":50,
+                  "height":40}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"返回",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 主菜单 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主菜单.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/航班/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1ce9b49033024bb1bc96b138abf9883b":{
+      "scriptId":"u0"},
+    "1d89e439a1fd443394815a1f8ee499cf":{
+      "scriptId":"u1"},
+    "544711bbedcb4b4fa9c7907fe1ccfa3b":{
+      "scriptId":"u2"},
+    "b7db41e75a6e4138960e2b798764f661":{
+      "scriptId":"u3"}}});

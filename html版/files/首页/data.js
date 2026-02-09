@@ -1,0 +1,669 @@
+﻿$axure.loadCurrentPage({
+  "url":"首页.html",
+  "generationDate":new Date(1747067682783.47),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"b02eb4bb3e604463a6a06e29ebb95312",
+    "type":"Axure:Page",
+    "name":"首页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"center",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"8ad99778322a40d79b3c65cf85e0b0a5",
+          "label":"背景图片",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"28e7068598cd4b8fbccbf4bf90d80782",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页/背景图片_u0.png"}},
+{
+          "id":"867a3a3cefb549faa9d61a91283da3e7",
+          "label":"阻挡图片的透明矩形（防止网页点击背景跳出查看图片）",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"546bfbe842074ff89584e6ec9c9aac8d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"bba38e9afe79456cb96cffaf2a2614d2",
+          "label":"系统名称",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontSize":"30px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000033,
+              "opacity":1},
+            "opacity":"0.8",
+            "location":{
+              "x":30,
+              "y":105},
+            "size":{
+              "width":181,
+              "height":35},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF777777}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1ace4c0fd9b34f59827f925242ee8fda",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontSize":"30px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000033,
+                  "opacity":1},
+                "opacity":"0.8",
+                "location":{
+                  "x":30,
+                  "y":105},
+                "size":{
+                  "width":181,
+                  "height":35},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF777777}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1f7905398b5f4b9d953bc97335368a3a",
+          "label":"登录",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF33CCFF},
+            "location":{
+              "x":280,
+              "y":310},
+            "size":{
+              "width":130,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"34"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"63f7fcab71f9454484a95b4659178890",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF33CCFF},
+                "location":{
+                  "x":280,
+                  "y":310},
+                "size":{
+                  "width":130,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"34"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 登录 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/首页/登录_u6.png",
+            "mouseOver~":"images/首页/登录_u6_mouseOver.png"}},
+{
+          "id":"b642ba1750b14b188fea2f8b38bccaa9",
+          "label":"注册",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF33CCFF},
+            "location":{
+              "x":284,
+              "y":380},
+            "size":{
+              "width":123,
+              "height":40},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"34"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c83b48c5fb924e718fddd9787d254413",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF33CCFF},
+                "location":{
+                  "x":284,
+                  "y":380},
+                "size":{
+                  "width":123,
+                  "height":40},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"34"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 注册 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"注册.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/首页/注册_u8.png",
+            "mouseOver~":"images/首页/注册_u8_mouseOver.png"}},
+{
+          "id":"50a66ee3226e409da768cee5968bab34",
+          "label":"格式化系统",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000000,
+              "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1}}},
+            "location":{
+              "x":240,
+              "y":435},
+            "size":{
+              "width":70,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"26015590fed84c42a8c89bc0a47b0cb2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000000,
+                  "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0000,
+                      "opacity":1}}},
+                "location":{
+                  "x":240,
+                  "y":435},
+                "size":{
+                  "width":70,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of user2name 等于 &quot;zhu_ce_shi_yong&quot;, 与<br> value of password2 等于 &quot;321321321231346546453213213...&quot;, 与<br> value of username 等于 value of user1name, 与<br> value of password 等于 value of password1, 与<br> value of issaved 等于 &quot;1&quot;, 与<br> value of imageid 等于 &quot;0&quot;, 与<br> value of user1_ticket 等于 &quot;0&quot;, 与<br> value of user1_info 等于 &quot;空&quot;, 与<br> value of user2_ticket 等于 &quot;0&quot;, 与<br> value of user2_info 等于 &quot;空&quot;, 与<br> value of user_ticket 等于 &quot;0&quot;, 与<br> value of user_info 等于 &quot;空&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2name"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"zhu_ce_shi_yong",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"password2"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"3213213212313465464532132132165465413",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"username"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1name"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"password"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"password1"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"issaved"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"1",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"imageid"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user1_ticket"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user1_info"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"空",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2_ticket"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user2_info"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"空",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_ticket"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"0",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_info"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"空",
+                                "stos":[]}]}]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示 格式化提示",
+                      "objectsToFades":[{
+                          "objectPath":["ff6188e8eb3d456faf130480e91a22da"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 格式化提示",
+                      "objectsToFades":[{
+                          "objectPath":["ff6188e8eb3d456faf130480e91a22da"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"b27a73989c1746878cf158a4de987ba4",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF3399FF,
+                  "opacity":1}}},
+            "location":{
+              "x":407,
+              "y":435},
+            "size":{
+              "width":53,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5f4147d5a3904ba6816f7bd87b3adc01",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF3399FF,
+                      "opacity":1}}},
+                "location":{
+                  "x":407,
+                  "y":435},
+                "size":{
+                  "width":53,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 说明 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"说明.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"ff6188e8eb3d456faf130480e91a22da",
+          "label":"格式化提示",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "fontSize":"28px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":245,
+              "y":265},
+            "size":{
+              "width":206,
+              "height":35},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"baff17282d3a47598535b1884714c40c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontSize":"28px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":245,
+                  "y":265},
+                "size":{
+                  "width":206,
+                  "height":35},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "8ad99778322a40d79b3c65cf85e0b0a5":{
+      "scriptId":"u0"},
+    "28e7068598cd4b8fbccbf4bf90d80782":{
+      "scriptId":"u1"},
+    "867a3a3cefb549faa9d61a91283da3e7":{
+      "scriptId":"u2"},
+    "546bfbe842074ff89584e6ec9c9aac8d":{
+      "scriptId":"u3"},
+    "bba38e9afe79456cb96cffaf2a2614d2":{
+      "scriptId":"u4"},
+    "1ace4c0fd9b34f59827f925242ee8fda":{
+      "scriptId":"u5"},
+    "1f7905398b5f4b9d953bc97335368a3a":{
+      "scriptId":"u6"},
+    "63f7fcab71f9454484a95b4659178890":{
+      "scriptId":"u7"},
+    "b642ba1750b14b188fea2f8b38bccaa9":{
+      "scriptId":"u8"},
+    "c83b48c5fb924e718fddd9787d254413":{
+      "scriptId":"u9"},
+    "50a66ee3226e409da768cee5968bab34":{
+      "scriptId":"u10"},
+    "26015590fed84c42a8c89bc0a47b0cb2":{
+      "scriptId":"u11"},
+    "b27a73989c1746878cf158a4de987ba4":{
+      "scriptId":"u12"},
+    "5f4147d5a3904ba6816f7bd87b3adc01":{
+      "scriptId":"u13"},
+    "ff6188e8eb3d456faf130480e91a22da":{
+      "scriptId":"u14"},
+    "baff17282d3a47598535b1884714c40c":{
+      "scriptId":"u15"}}});

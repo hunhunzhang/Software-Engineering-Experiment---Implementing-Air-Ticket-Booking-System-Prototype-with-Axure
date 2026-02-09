@@ -1,0 +1,937 @@
+﻿$axure.loadCurrentPage({
+  "url":"登录.html",
+  "generationDate":new Date(1747067682807.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"user1name",
+"password1",
+"user2name",
+"password2",
+"username",
+"password",
+"issaved",
+"imageid",
+"user1_ticket",
+"user1_info",
+"user2_ticket",
+"user2_info",
+"user_ticket",
+"user_info"],
+  "page":{
+    "packageId":"867e206570f74d8c8a443bc8bfff19c1",
+    "type":"Axure:Page",
+    "name":"登录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"center",
+      "imageVerticalAlignment":"center",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"初始化<br> (If True)",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFocusOnWidget",
+                "description":"设置焦点在 用户名输入 上",
+                "objectPaths":[["5aab03ecf5e0443ab86a31c2fdb7c605"]]}]},
+{
+            "description":"自动填充已保存的登录信息<br> (If value of issaved等于: &quot;true&quot;)",
+            "isNewIfGroup":true,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"issaved"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"true",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 文字于 密码输入 等于 value of password, 与<br> 文字于 用户名输入 等于 value of username",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetFormText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["653f99f558f34314abfef473f333b8ff"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"password"}]}]},
+{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetFormText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["5aab03ecf5e0443ab86a31c2fdb7c605"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"username"}]}]}]}},
+{
+                "action":"setFunction",
+                "description":"设置 被选中的 是否保存选择 等于 &quot;true&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["893aaeba2ebf4ecb8f63fb0ede6bef35"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]}]}}]},
+{
+            "description":"自动填充<br> (Else If value of issaved等于: &quot;false&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"==",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"issaved"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"false",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 被选中的 是否保存选择 等于 &quot;false&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["893aaeba2ebf4ecb8f63fb0ede6bef35"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"false",
+                          "stos":[]}]}]}}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"da965da69c4e4140a28cc67faeaaf99c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"234e21986aa449349928f0661de3cc64",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页/背景图片_u0.png"}},
+{
+          "id":"40add0cd26f74beab80d6fae07ee1073",
+          "label":"阻挡图片的透明矩形（防止网页点击背景跳出查看图片）",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0",
+            "location":{
+              "x":26,
+              "y":100},
+            "size":{
+              "width":644,
+              "height":430},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2f7790670f434a33be64b965e8575898",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0",
+                "location":{
+                  "x":26,
+                  "y":100},
+                "size":{
+                  "width":644,
+                  "height":430},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e73629eea4794a28b67bcfb12d573dc5",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "opacity":"0.6",
+            "location":{
+              "x":210,
+              "y":248},
+            "size":{
+              "width":256,
+              "height":232},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"753ba8f8a5de4912ae34ca7655270652",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "opacity":"0.6",
+                "location":{
+                  "x":210,
+                  "y":248},
+                "size":{
+                  "width":256,
+                  "height":232},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/登录/u4.png"}},
+{
+          "id":"ad7324a72e0b48969c72e54f6168aa5b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":270},
+            "size":{
+              "width":40,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f8ffee3d3ded4fcfa6ce46bfda7374fb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":240,
+                  "y":270},
+                "size":{
+                  "width":40,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3b234306ae6c43929bf5fa2d6c843fd6",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":346},
+            "size":{
+              "width":27,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d1860984810944b8bdb43030509cd235",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":240,
+                  "y":346},
+                "size":{
+                  "width":27,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"08d551896b4c46e7a1d63e48bab696e4",
+          "label":"登录按钮",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF66CCFF},
+            "location":{
+              "x":356,
+              "y":430},
+            "size":{
+              "width":100,
+              "height":30},
+            "borderWidth":"-1",
+            "cornerRadiusTopLeft":"32"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7c1e6b95821848d1852627f1200a5fc4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF66CCFF},
+                "location":{
+                  "x":356,
+                  "y":430},
+                "size":{
+                  "width":100,
+                  "height":30},
+                "borderWidth":"-1",
+                "cornerRadiusTopLeft":"32"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"user1登录<br> (If value of user1name等于: 文字于 用户名输入 和 value of password1等于: 文字于 密码输入)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user1name"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["5aab03ecf5e0443ab86a31c2fdb7c605"]}]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"password1"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["653f99f558f34314abfef473f333b8ff"]}]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of username 等于 文字于 用户名输入, 与<br> value of password 等于 文字于 密码输入, 与<br> value of issaved 等于 被选中的 是否保存选择, 与<br> value of user_ticket 等于 value of user1_ticket, 与<br> value of user_info 等于 value of user1_info",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"username"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["5aab03ecf5e0443ab86a31c2fdb7c605"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"password"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["653f99f558f34314abfef473f333b8ff"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"issaved"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetCheckState",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["893aaeba2ebf4ecb8f63fb0ede6bef35"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_ticket"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_info"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user1_info"}]}]}]}},
+{
+                      "action":"linkFrame",
+                      "description":"打开 主菜单 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主菜单.html",
+                        "includeVariables":true}}]},
+{
+                  "description":"user2登录<br> (Else If value of user2name等于: 文字于 用户名输入 和 value of password2等于: 文字于 密码输入)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"user2name"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["5aab03ecf5e0443ab86a31c2fdb7c605"]}]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetGlobalVariableValue",
+                        "arguments":[{
+                            "exprType":"globalVariableLiteral",
+                            "variableName":"password2"}]},
+                      "rightExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["653f99f558f34314abfef473f333b8ff"]}]}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 value of username 等于 文字于 用户名输入, 与<br> value of password 等于 文字于 密码输入, 与<br> value of issaved 等于 被选中的 是否保存选择, 与<br> value of user_ticket 等于 value of user2_ticket, 与<br> value of user_info 等于 value of user2_info",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"username"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["5aab03ecf5e0443ab86a31c2fdb7c605"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"password"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetWidgetText",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["653f99f558f34314abfef473f333b8ff"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"issaved"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetCheckState",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["893aaeba2ebf4ecb8f63fb0ede6bef35"]}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_ticket"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user2_ticket"}]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"user_info"},
+{
+                                "exprType":"fcall",
+                                "functionName":"GetGlobalVariableValue",
+                                "arguments":[{
+                                    "exprType":"globalVariableLiteral",
+                                    "variableName":"user2_info"}]}]}]}},
+{
+                      "action":"linkFrame",
+                      "description":"打开 主菜单 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"主菜单.html",
+                        "includeVariables":true}}]},
+{
+                  "description":"信息错误<br> (Else If True)",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["fdc28e7a391143afae9593209686881f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"wait",
+                      "description":"等待1000毫秒",
+                      "waitTime":1000},
+{
+                      "action":"fadeWidget",
+                      "description":"隐藏 输入错误提示",
+                      "objectsToFades":[{
+                          "objectPath":["fdc28e7a391143afae9593209686881f"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/登录/登录按钮_u10.png",
+            "mouseOver~":"images/登录/登录按钮_u10_mouseOver.png"}},
+{
+          "id":"653f99f558f34314abfef473f333b8ff",
+          "label":"密码输入",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":372},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5aab03ecf5e0443ab86a31c2fdb7c605",
+          "label":"用户名输入",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":240,
+              "y":296},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"b197f3148481475ab4a50c18b01dcdfb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "underline":true,
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0066CC,
+                  "opacity":1}}},
+            "location":{
+              "x":406,
+              "y":480},
+            "size":{
+              "width":60,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"91c5b92763d741ff94203ee705395cea",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "underline":true,
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0066CC,
+                      "opacity":1}}},
+                "location":{
+                  "x":406,
+                  "y":480},
+                "size":{
+                  "width":60,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkFrame",
+                      "description":"打开 首页 在父窗口",
+                      "linkType":"parentFrame",
+                      "target":{
+                        "targetType":"page",
+                        "url":"首页.html",
+                        "includeVariables":true}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"48b3a91542d542bfbba2fd97b1112abe",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "disabled":true,
+          "visible":true,
+          "style":{
+            "fontSize":"30px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF000033,
+              "opacity":1},
+            "opacity":"0.8",
+            "location":{
+              "x":30,
+              "y":105},
+            "size":{
+              "width":181,
+              "height":35},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF777777}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c3f0af4ba7e941ecae4119698b0fcfb3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "disabled":true,
+              "visible":true,
+              "style":{
+                "fontSize":"30px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF000033,
+                  "opacity":1},
+                "opacity":"0.8",
+                "location":{
+                  "x":30,
+                  "y":105},
+                "size":{
+                  "width":181,
+                  "height":35},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF777777}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fdc28e7a391143afae9593209686881f",
+          "label":"输入错误提示",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":240,
+              "y":248},
+            "size":{
+              "width":118,
+              "height":15},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"48c0a420980e42b0a44d02de71cb024f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":240,
+                  "y":248},
+                "size":{
+                  "width":118,
+                  "height":15},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"893aaeba2ebf4ecb8f63fb0ede6bef35",
+          "label":"是否保存选择",
+          "type":"checkbox",
+          "styleType":"checkbox",
+          "visible":true,
+          "style":{
+            "fontSize":"11px",
+            "location":{
+              "x":240,
+              "y":397},
+            "size":{
+              "width":100,
+              "height":14}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d42bfca3edc14dcead4e7a5bc85a6d96",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"11px",
+                "location":{
+                  "x":240,
+                  "y":397},
+                "size":{
+                  "width":100,
+                  "height":14}},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "da965da69c4e4140a28cc67faeaaf99c":{
+      "scriptId":"u0"},
+    "234e21986aa449349928f0661de3cc64":{
+      "scriptId":"u1"},
+    "40add0cd26f74beab80d6fae07ee1073":{
+      "scriptId":"u2"},
+    "2f7790670f434a33be64b965e8575898":{
+      "scriptId":"u3"},
+    "e73629eea4794a28b67bcfb12d573dc5":{
+      "scriptId":"u4"},
+    "753ba8f8a5de4912ae34ca7655270652":{
+      "scriptId":"u5"},
+    "ad7324a72e0b48969c72e54f6168aa5b":{
+      "scriptId":"u6"},
+    "f8ffee3d3ded4fcfa6ce46bfda7374fb":{
+      "scriptId":"u7"},
+    "3b234306ae6c43929bf5fa2d6c843fd6":{
+      "scriptId":"u8"},
+    "d1860984810944b8bdb43030509cd235":{
+      "scriptId":"u9"},
+    "08d551896b4c46e7a1d63e48bab696e4":{
+      "scriptId":"u10"},
+    "7c1e6b95821848d1852627f1200a5fc4":{
+      "scriptId":"u11"},
+    "653f99f558f34314abfef473f333b8ff":{
+      "scriptId":"u12"},
+    "5aab03ecf5e0443ab86a31c2fdb7c605":{
+      "scriptId":"u13"},
+    "b197f3148481475ab4a50c18b01dcdfb":{
+      "scriptId":"u14"},
+    "91c5b92763d741ff94203ee705395cea":{
+      "scriptId":"u15"},
+    "48b3a91542d542bfbba2fd97b1112abe":{
+      "scriptId":"u16"},
+    "c3f0af4ba7e941ecae4119698b0fcfb3":{
+      "scriptId":"u17"},
+    "fdc28e7a391143afae9593209686881f":{
+      "scriptId":"u18"},
+    "48c0a420980e42b0a44d02de71cb024f":{
+      "scriptId":"u19"},
+    "893aaeba2ebf4ecb8f63fb0ede6bef35":{
+      "scriptId":"u20"},
+    "d42bfca3edc14dcead4e7a5bc85a6d96":{
+      "scriptId":"u21"}}});
